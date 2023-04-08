@@ -1,2 +1,11 @@
 I am a Unix file. I an prond
 to be a Unix file.
+
+`1234567890-=
+~!@#$%^&*()_+
+qwertyuiop[]\
+QWERTYUIOP{}|
+asdfghjkl;'
+ASDFGHJKL:"
+zxcvbnm,./
+ZXCVBNM<>?
