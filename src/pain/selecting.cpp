@@ -6,6 +6,7 @@
 struct Selecting {
   unsigned short id;
   std::string heading;
+  std::string heading2;
   std::string a;
   std::string b;
   std::string c;
@@ -35,6 +36,13 @@ std::string handle_selecting() {
     if (question.heading == "") {
       continue_flag = false;
       break;
+    }
+
+    cout << HEADING_MARK << "> ";
+    getline(cin, question.heading2);
+
+    if (question.heading2 != "") {
+      question.heading.append(question.heading2);
     }
 
     cout << HEADING_MARK << "A: ";
